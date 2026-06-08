@@ -170,7 +170,7 @@ The AI Business Intelligence Engine automatically generates actionable business 
 ---
 
 ### 🤖 Smart AI Business Assistant
-![Smart AI Business Assistant](images/smart-ai-business-assistant.png)
+![Smart AI Business Assistant](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235638.png)
 
 The Smart AI Business Assistant provides an interactive conversational interface for exploring business insights. Users can ask questions related to customer behavior, revenue growth, market opportunities, and business performance, receiving instant AI-generated recommendations.
 
