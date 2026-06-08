@@ -4,27 +4,29 @@
 
 Transforming raw customer transaction data into actionable business intelligence using Artificial Intelligence, Machine Learning, SQL Analytics and Interactive Visualization.
 
+
+# 🚀 Live Demo
+
+🌐 **Interactive Dashboard:**  
+https://your-streamlit-app-link.streamlit.app
+
+### How It Was Built
+
+- PostgreSQL Database Integration
+- SQL-Based Data Warehousing
+- Data Cleaning & Validation Pipeline
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Machine Learning (Random Forest)
+- AI-Powered Business Intelligence
+- Interactive Streamlit Dashboard
+- Plotly Visualizations
+- Customer Segmentation & Forecasting
+
+👉 Explore the live dashboard to interact with real-time business intelligence insights.
 ---
 
-## ⭐ Project Highlights
 
-✔ AI-Powered Customer Segmentation
-
-✔ Customer Health Scoring Engine
-
-✔ Sales Forecasting & Trend Prediction
-
-✔ Revenue Outlier Detection
-
-✔ Business Intelligence Recommendation System
-
-✔ Interactive AI Business Assistant
-
-✔ Geographic Customer Analytics
-
-✔ Executive Decision Support Dashboard
-
----
 
 ## 📌 Project Overview
 
@@ -471,3 +473,26 @@ This validation step verifies successful database setup and confirms data availa
 9. Interactive Dashboard Deployment
 
 ---
+---
+
+# 👨‍💻 Author
+
+## Dipendra Pardhi
+
+Business Analytics Student | Data Analyst | AI & Business Intelligence Enthusiast
+
+### Connect With Me
+
+🔗 LinkedIn: https:(https://www.linkedin.com/in/dipendra-pardhi-93219b33b)
+
+💻 GitHub: https://github.com/dipendra-pardhi
+
+📧 Email: your-email@example.com
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
+
+Thank you for visiting this project!
