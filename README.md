@@ -349,7 +349,7 @@ Generated machine-learning-ready customer feature dataset for predictive analyti
 
 ### Customer Intelligence Prediction Model
 
-![Machine Learning Model](images/customer-intelligence-ml-model.png)
+![Machine Learning Model](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/05%20ML%20MODAL%20Screenshot%20.png)
 
 ### Model Details
 
