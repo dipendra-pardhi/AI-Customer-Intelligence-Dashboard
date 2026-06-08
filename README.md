@@ -237,3 +237,45 @@ LIMIT 10;
 
 📂 Complete SQL scripts are available inside the `sql/` folder.
 
+Data Volume Validation
+SELECT
+    (SELECT COUNT(*) FROM customers) AS customers,
+    (SELECT COUNT(*) FROM orders) AS orders,
+    (SELECT COUNT(*) FROM products) AS products,
+    (SELECT COUNT(*) FROM sellers) AS sellers;
+
+
+
+Customer Revenue Analysis
+
+SELECT
+    c.customer_unique_id,
+    COUNT(DISTINCT o.order_id) AS total_orders,
+    SUM(p.payment_value) AS total_spent
+FROM customers c
+JOIN orders o
+ON c.customer_id = o.customer_id
+JOIN payments p
+ON o.order_id = p.order_id
+GROUP BY c.customer_unique_id
+ORDER BY total_spent DESC
+LIMIT 10;
+
+
+## 🧠 Advanced Analytics Features
+
+✔ Customer Segmentation (VIP / Regular / At-Risk)
+
+✔ Customer Health Score Engine
+
+✔ AI Business Recommendation System
+
+✔ Sales Forecasting using Machine Learning
+
+✔ Revenue Outlier Detection
+
+✔ State-wise Customer Intelligence
+
+✔ Interactive AI Business Assistant
+
+✔ Enterprise PostgreSQL Data Warehouse
