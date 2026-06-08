@@ -283,7 +283,7 @@ The platform uses PostgreSQL as the central enterprise data warehouse for storin
 
 ### Database Table Verification
 
-![Database Table Verification](images/database-table-preview.png)
+![Database Table Verification](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20010452.png)
 
 **Description**
 
