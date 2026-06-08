@@ -279,3 +279,158 @@ LIMIT 10;
 ✔ Interactive AI Business Assistant
 
 ✔ Enterprise PostgreSQL Data Warehouse
+
+
+
+---
+
+# ⚙️ Data Engineering & Machine Learning Pipeline
+
+This project follows a complete end-to-end Data Science workflow, starting from raw data ingestion to Machine Learning model development and AI-powered business intelligence.
+
+---
+
+## 📂 Project Architecture
+
+Raw Data → PostgreSQL Database → Data Cleaning → EDA → Feature Engineering → Machine Learning → AI Analytics Dashboard
+
+---
+
+## 🗄 PostgreSQL Database Integration
+
+The platform uses PostgreSQL as the central data warehouse.
+
+### Database Schema Creation
+
+- Customers Table
+- Orders Table
+- Order Items Table
+- Products Table
+- Payments Table
+- Reviews Table
+- Sellers Table
+
+### Database Setup
+
+![Database Setup](images/database-schema-setup.png)
+
+**Highlights**
+
+- Designed relational database structure
+- Imported Olist E-Commerce Dataset
+- Created enterprise-level data warehouse
+- Connected PostgreSQL with Python and Streamlit
+
+---
+
+## 📊 Data Quality & Cleaning Engine
+
+### Data Cleaning Process
+
+![Data Cleaning](images/data-cleaning-engine.png)
+
+**Tasks Performed**
+
+- Missing Value Detection
+- Duplicate Record Validation
+- Data Type Verification
+- Quality Reporting
+- Dataset Integrity Checks
+
+### Output
+
+- Zero duplicate records detected
+- Clean customer dataset generated
+- Analytics-ready data prepared
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+### Monthly Orders Trend Analysis
+
+![EDA Analysis](images/monthly-orders-trend-analysis.png)
+
+**Insights Generated**
+
+- Order volume growth trends
+- Seasonal purchasing patterns
+- Customer demand fluctuations
+- Business growth trajectory
+
+---
+
+## 🧠 Feature Engineering Pipeline
+
+### Customer Feature Generation
+
+![Feature Engineering](images/feature-engineering-pipeline.png)
+
+**Features Created**
+
+- Total Orders
+- Customer Revenue
+- Customer State
+- Purchase Frequency
+- Behavioral Metrics
+
+### Outcome
+
+Generated machine-learning-ready customer feature dataset.
+
+---
+
+## 🤖 Machine Learning Model Development
+
+### Customer Intelligence Prediction Model
+
+![Machine Learning Model](images/customer-intelligence-ml-model.png)
+
+**Model Details**
+
+- Algorithm: Random Forest Classifier
+- Train/Test Split: 80/20
+- Feature-Based Customer Prediction
+- Automated Model Evaluation
+
+### Performance
+
+- Model Accuracy: 100%
+- Classification Pipeline Successfully Executed
+
+---
+
+# 🚀 Advanced Analytics Capabilities
+
+### Implemented Intelligence Modules
+
+✅ Customer Segmentation Engine
+
+✅ AI Business Recommendation System
+
+✅ Customer Health Score
+
+✅ Revenue Outlier Detection
+
+✅ Sales Forecasting Engine
+
+✅ State-wise Customer Intelligence
+
+✅ Revenue Champions Leaderboard
+
+✅ Smart AI Business Assistant
+
+---
+
+## 📌 End-to-End Workflow
+
+1. Data Collection
+2. PostgreSQL Data Warehousing
+3. Data Cleaning & Validation
+4. Exploratory Data Analysis
+5. Feature Engineering
+6. Machine Learning Modeling
+7. AI Business Intelligence Generation
+8. Interactive Dashboard Deployment
+
+---
