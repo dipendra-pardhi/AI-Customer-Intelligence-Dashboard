@@ -114,7 +114,7 @@ The Executive Command Center serves as the primary control hub of the AI Custome
 ---
 
 ### 📈 Sales Intelligence Monitor
-![Sales Intelligence Monitor](images/sales-intelligence-monitor.png)
+![Sales Intelligence Monitor](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235521.png)
 
 The Sales Intelligence Monitor analyzes monthly sales trends and order volumes across the business. By tracking historical performance patterns, this module helps identify growth opportunities, seasonal fluctuations, and sales momentum. These insights support better forecasting and business planning.
 
