@@ -377,6 +377,33 @@ This visualization was generated during the Exploratory Data Analysis (EDA) phas
 - Supported forecasting and predictive analytics
 - Provided business performance insights
 
+
+## 🗄 PostgreSQL Database Integration
+
+### Database Validation & Record Count Analysis
+
+![Database Validation](images/postgresql-data-validation.png)
+
+**Description**
+
+This validation step verifies successful database setup and confirms data availability across all business tables. Record count queries were executed to ensure data integrity before analytics and machine learning processing.
+
+**Validation Checks**
+
+- Customer Records Count
+- Orders Records Count
+- Order Items Count
+- Payments Count
+- Products Count
+- Reviews Count
+- Sellers Count
+
+**Outcome**
+
+- PostgreSQL database successfully validated
+- All business tables loaded correctly
+- Dataset ready for analytics and AI processing
+
 ### Performance
 
 ✅ Model Successfully Trained
