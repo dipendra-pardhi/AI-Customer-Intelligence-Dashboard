@@ -163,7 +163,7 @@ The Revenue Champions Leaderboard highlights the highest revenue-generating cust
 ---
 
 ### 🧠 AI Business Intelligence Engine
-![AI Business Intelligence Engine](images/ai-business-intelligence-engine.png)
+![AI Business Intelligence Engine](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235705.png)
 
 The AI Business Intelligence Engine automatically generates actionable business recommendations using customer segmentation, revenue analysis, and behavioral insights. It functions as a strategic decision-support system that helps organizations improve profitability and customer retention.
 
