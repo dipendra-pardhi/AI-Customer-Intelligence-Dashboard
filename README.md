@@ -128,7 +128,7 @@ This AI-powered segmentation engine categorizes customers into VIP, At-Risk, and
 ---
 
 ### 📋 Smart Order Explorer
-![Smart Order Explorer](images/smart-order-explorer.png)
+![Smart Order Explorer](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235610.png)
 
 The Smart Order Explorer provides detailed order-level visibility through interactive filtering and exploration features. Users can analyze order status, purchase timelines, delivery performance, and customer transactions. The module also supports data export functionality for further business analysis.
 
