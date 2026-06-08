@@ -281,6 +281,26 @@ The platform uses PostgreSQL as the central enterprise data warehouse for storin
 - Built business intelligence queries
 - Created centralized analytics database
 
+### Database Table Verification
+
+![Database Table Verification](images/database-table-preview.png)
+
+**Description**
+
+Verified successful table creation and data loading by previewing customer records directly from PostgreSQL.
+
+**Checks Performed**
+
+- Customers table validation
+- Column structure verification
+- Data import confirmation
+- Primary key validation
+
+**Outcome**
+
+Database tables successfully created and populated with Olist E-Commerce data.
+
+
 📂 Complete SQL scripts are available inside the `SQL/` folder.
 
 ---
