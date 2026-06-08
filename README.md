@@ -135,7 +135,7 @@ The Smart Order Explorer provides detailed order-level visibility through intera
 ---
 
 ### 🎯 Customer Health Score Engine
-![Customer Health Score Engine](images/customer-health-score-engine.png)
+![Customer Health Score Engine](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235847.png)
 
 The Customer Health Score Engine evaluates overall business performance using customer engagement and operational metrics. A dynamically calculated health score helps organizations assess customer satisfaction, identify performance gaps, and monitor business stability in real time.
 
