@@ -363,7 +363,7 @@ Generated machine-learning-ready customer feature dataset for predictive analyti
 
 #### Monthly Orders Trend Analysis
 
-![Monthly Orders Trend Analysis](images/eda-monthly-orders-trend-analysis.png)
+![Monthly Orders Trend Analysis](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/03_eda.py%20%20graph%20image.png)
 
 **Description**
 
