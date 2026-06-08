@@ -142,7 +142,7 @@ The Customer Health Score Engine evaluates overall business performance using cu
 ---
 
 ### 🚀 AI Sales Forecast Engine
-![AI Sales Forecast Engine](images/ai-sales-forecast-engine.png)
+![AI Sales Forecast Engine](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235823.png)
 
 The AI Sales Forecast Engine utilizes historical order trends and predictive analytics techniques to estimate future sales performance. This forecasting capability enables businesses to optimize inventory management, resource allocation, and revenue planning with greater confidence.
 
