@@ -382,7 +382,7 @@ This visualization was generated during the Exploratory Data Analysis (EDA) phas
 
 ### Database Validation & Record Count Analysis
 
-![Database Validation](images/postgresql-data-validation.png)
+![Database Validation](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20022245.png)
 
 **Description**
 
