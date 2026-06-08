@@ -177,6 +177,6 @@ The Smart AI Business Assistant provides an interactive conversational interface
 ---
 
 ### 🌍 Customer State Analysis Dashboard
-![Customer State Analysis Dashboard](images/customer-state-analysis-dashboard.png)
+![Customer State Analysis Dashboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-09%20000447.png)
 
 The Customer State Analysis Dashboard visualizes customer distribution across different geographic regions and states. This module helps businesses identify high-performing markets, understand regional customer concentration, and support data-driven expansion strategies.
