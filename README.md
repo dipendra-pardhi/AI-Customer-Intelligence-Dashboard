@@ -329,7 +329,7 @@ The platform uses PostgreSQL as the central enterprise data warehouse for storin
 
 ### Customer Feature Generation
 
-![Feature Engineering Pipeline](images/feature-engineering-pipeline.png)
+![Feature Engineering Pipeline](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/04_Feature_engineer%20screen%20short.png)
 
 ### Features Created
 
