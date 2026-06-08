@@ -149,7 +149,7 @@ The AI Sales Forecast Engine utilizes historical order trends and predictive ana
 ---
 
 ### 💰 Customer Spending Outlier Detection
-![Customer Spending Outlier Detection](images/customer-spending-outlier-detection.png)
+![Customer Spending Outlier Detection](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235800.png)
 
 This advanced analytics module identifies high-value spending behaviors and unusual revenue patterns within the customer base. By detecting outliers, organizations can uncover premium customer segments, reduce risk, and discover untapped revenue opportunities.
 
