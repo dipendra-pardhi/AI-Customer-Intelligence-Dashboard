@@ -104,8 +104,79 @@ The AI Customer Intelligence Platform combines multiple analytics modules into o
 # 📸 Executive Dashboard Screenshots
 
 
+## 📊 Dashboard Screenshots
+
 ### 🏠 Executive Command Center Dashboard
+![Executive Command Center Dashboard](images/executive-command-center-dashboard.png)
 
-![Executive Command Center Dashboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235445.png)
+The Executive Command Center serves as the primary control hub of the AI Customer Intelligence Platform. It provides a comprehensive overview of business operations by displaying key metrics such as total customers, orders, and products. This dashboard enables stakeholders to monitor overall business performance and make informed strategic decisions through real-time insights.
 
+---
 
+### 📈 Sales Intelligence Monitor
+![Sales Intelligence Monitor](images/sales-intelligence-monitor.png)
+
+The Sales Intelligence Monitor analyzes monthly sales trends and order volumes across the business. By tracking historical performance patterns, this module helps identify growth opportunities, seasonal fluctuations, and sales momentum. These insights support better forecasting and business planning.
+
+---
+
+### 🎯 AI Customer Segmentation Center
+![AI Customer Segmentation Center](images/ai-customer-segmentation-center.png)
+
+This AI-powered segmentation engine categorizes customers into VIP, At-Risk, and Regular customer groups based on purchasing behavior and engagement patterns. The dashboard enables businesses to create personalized retention strategies and maximize customer lifetime value through targeted marketing initiatives.
+
+---
+
+### 📋 Smart Order Explorer
+![Smart Order Explorer](images/smart-order-explorer.png)
+
+The Smart Order Explorer provides detailed order-level visibility through interactive filtering and exploration features. Users can analyze order status, purchase timelines, delivery performance, and customer transactions. The module also supports data export functionality for further business analysis.
+
+---
+
+### 🎯 Customer Health Score Engine
+![Customer Health Score Engine](images/customer-health-score-engine.png)
+
+The Customer Health Score Engine evaluates overall business performance using customer engagement and operational metrics. A dynamically calculated health score helps organizations assess customer satisfaction, identify performance gaps, and monitor business stability in real time.
+
+---
+
+### 🚀 AI Sales Forecast Engine
+![AI Sales Forecast Engine](images/ai-sales-forecast-engine.png)
+
+The AI Sales Forecast Engine utilizes historical order trends and predictive analytics techniques to estimate future sales performance. This forecasting capability enables businesses to optimize inventory management, resource allocation, and revenue planning with greater confidence.
+
+---
+
+### 💰 Customer Spending Outlier Detection
+![Customer Spending Outlier Detection](images/customer-spending-outlier-detection.png)
+
+This advanced analytics module identifies high-value spending behaviors and unusual revenue patterns within the customer base. By detecting outliers, organizations can uncover premium customer segments, reduce risk, and discover untapped revenue opportunities.
+
+---
+
+### 🏆 Revenue Champions Leaderboard
+![Revenue Champions Leaderboard](images/revenue-champions-leaderboard.png)
+
+The Revenue Champions Leaderboard highlights the highest revenue-generating customers within the platform. This feature enables businesses to recognize top contributors, strengthen customer relationships, and develop exclusive engagement strategies for valuable customers.
+
+---
+
+### 🧠 AI Business Intelligence Engine
+![AI Business Intelligence Engine](images/ai-business-intelligence-engine.png)
+
+The AI Business Intelligence Engine automatically generates actionable business recommendations using customer segmentation, revenue analysis, and behavioral insights. It functions as a strategic decision-support system that helps organizations improve profitability and customer retention.
+
+---
+
+### 🤖 Smart AI Business Assistant
+![Smart AI Business Assistant](images/smart-ai-business-assistant.png)
+
+The Smart AI Business Assistant provides an interactive conversational interface for exploring business insights. Users can ask questions related to customer behavior, revenue growth, market opportunities, and business performance, receiving instant AI-generated recommendations.
+
+---
+
+### 🌍 Customer State Analysis Dashboard
+![Customer State Analysis Dashboard](images/customer-state-analysis-dashboard.png)
+
+The Customer State Analysis Dashboard visualizes customer distribution across different geographic regions and states. This module helps businesses identify high-performing markets, understand regional customer concentration, and support data-driven expansion strategies.
