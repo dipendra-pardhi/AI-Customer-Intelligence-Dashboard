@@ -107,7 +107,7 @@ The AI Customer Intelligence Platform combines multiple analytics modules into o
 ## 📊 Dashboard Screenshots
 
 ### 🏠 Executive Command Center Dashboard
-![Executive Command Center Dashboard](images/executive-command-center-dashboard.png)
+![Executive Command Center Dashboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235445.png)
 
 The Executive Command Center serves as the primary control hub of the AI Customer Intelligence Platform. It provides a comprehensive overview of business operations by displaying key metrics such as total customers, orders, and products. This dashboard enables stakeholders to monitor overall business performance and make informed strategic decisions through real-time insights.
 
