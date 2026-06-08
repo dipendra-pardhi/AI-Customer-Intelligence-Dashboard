@@ -106,6 +106,6 @@ The AI Customer Intelligence Platform combines multiple analytics modules into o
 
 ### 🏠 Executive Command Center Dashboard
 
-![Executive Command Center Dashboard](images/executive-command-center-dashboard.png)
+![Executive Command Center Dashboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235445.png)
 
 
