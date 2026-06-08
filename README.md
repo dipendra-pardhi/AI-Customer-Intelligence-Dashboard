@@ -182,19 +182,9 @@ The Smart AI Business Assistant provides an interactive conversational interface
 The Customer State Analysis Dashboard visualizes customer distribution across different geographic regions and states. This module helps businesses identify high-performing markets, understand regional customer concentration, and support data-driven expansion strategies.
 
 
-## 🗄 Database Design (PostgreSQL)
+## 🗄 PostgreSQL Database Integration
 
-The project uses a normalized PostgreSQL database consisting of 7 interconnected tables:
-
-- Customers
-- Orders
-- Order Items
-- Products
-- Sellers
-- Payments
-- Reviews
-
-### Sample Schema
+### Database Schema Creation
 
 ```sql
 CREATE TABLE customers (
@@ -210,20 +200,18 @@ CREATE TABLE orders (
     order_status VARCHAR(50),
     order_purchase_timestamp TIMESTAMP
 );
+```
 
-CREATE TABLE payments (
-    order_id VARCHAR(50),
-    payment_type VARCHAR(50),
-    payment_value NUMERIC
-);
+### Business Analysis Queries
 
-Business Analysis Queries
-
+```sql
 SELECT
     COUNT(*) AS total_orders,
     COUNT(DISTINCT customer_id) AS unique_customers
 FROM orders;
+```
 
+```sql
 SELECT
     c.customer_unique_id,
     COUNT(DISTINCT o.order_id) AS total_orders,
@@ -234,73 +222,44 @@ JOIN payments p ON o.order_id = p.order_id
 GROUP BY c.customer_unique_id
 ORDER BY total_spent DESC
 LIMIT 10;
+```
 
-📂 Complete SQL scripts are available inside the `sql/` folder.
-
-Data Volume Validation
-SELECT
-    (SELECT COUNT(*) FROM customers) AS customers,
-    (SELECT COUNT(*) FROM orders) AS orders,
-    (SELECT COUNT(*) FROM products) AS products,
-    (SELECT COUNT(*) FROM sellers) AS sellers;
-
-
-
-Customer Revenue Analysis
-
-SELECT
-    c.customer_unique_id,
-    COUNT(DISTINCT o.order_id) AS total_orders,
-    SUM(p.payment_value) AS total_spent
-FROM customers c
-JOIN orders o
-ON c.customer_id = o.customer_id
-JOIN payments p
-ON o.order_id = p.order_id
-GROUP BY c.customer_unique_id
-ORDER BY total_spent DESC
-LIMIT 10;
-
-
-## 🧠 Advanced Analytics Features
-
-✔ Customer Segmentation (VIP / Regular / At-Risk)
-
-✔ Customer Health Score Engine
-
-✔ AI Business Recommendation System
-
-✔ Sales Forecasting using Machine Learning
-
-✔ Revenue Outlier Detection
-
-✔ State-wise Customer Intelligence
-
-✔ Interactive AI Business Assistant
-
-✔ Enterprise PostgreSQL Data Warehouse
-
+📂 Complete SQL scripts are available inside the `SQL/` folder.
 
 
 ---
 
 # ⚙️ Data Engineering & Machine Learning Pipeline
 
-This project follows a complete end-to-end Data Science workflow, starting from raw data ingestion to Machine Learning model development and AI-powered business intelligence.
+This project follows a complete end-to-end Data Science workflow, transforming raw e-commerce data into AI-powered business intelligence through PostgreSQL, Python, Machine Learning, and Interactive Analytics.
 
 ---
 
 ## 📂 Project Architecture
 
-Raw Data → PostgreSQL Database → Data Cleaning → EDA → Feature Engineering → Machine Learning → AI Analytics Dashboard
+```text
+Raw Data
+    ↓
+PostgreSQL Database
+    ↓
+Data Cleaning
+    ↓
+Exploratory Data Analysis (EDA)
+    ↓
+Feature Engineering
+    ↓
+Machine Learning Model
+    ↓
+AI Business Intelligence Dashboard
+```
 
 ---
 
 ## 🗄 PostgreSQL Database Integration
 
-The platform uses PostgreSQL as the central data warehouse.
+The platform uses PostgreSQL as the central enterprise data warehouse for storing and analyzing e-commerce transactions.
 
-### Database Schema Creation
+### Database Components
 
 - Customers Table
 - Orders Table
@@ -314,12 +273,15 @@ The platform uses PostgreSQL as the central data warehouse.
 
 ![Database Setup](images/database-schema-setup.png)
 
-**Highlights**
+### Key Achievements
 
-- Designed relational database structure
+- Designed relational database schema
 - Imported Olist E-Commerce Dataset
-- Created enterprise-level data warehouse
-- Connected PostgreSQL with Python and Streamlit
+- Connected PostgreSQL with Python
+- Built business intelligence queries
+- Created centralized analytics database
+
+📂 Complete SQL scripts are available inside the `SQL/` folder.
 
 ---
 
@@ -327,21 +289,23 @@ The platform uses PostgreSQL as the central data warehouse.
 
 ### Data Cleaning Process
 
-![Data Cleaning](images/data-cleaning-engine.png)
+![Data Cleaning Engine](images/data-cleaning-engine.png)
 
-**Tasks Performed**
+### Tasks Performed
 
-- Missing Value Detection
-- Duplicate Record Validation
-- Data Type Verification
-- Quality Reporting
-- Dataset Integrity Checks
+- Missing Value Analysis
+- Duplicate Record Detection
+- Data Validation
+- Dataset Quality Reporting
+- Data Consistency Checks
 
-### Output
+### Results
 
-- Zero duplicate records detected
-- Clean customer dataset generated
-- Analytics-ready data prepared
+✅ Zero duplicate records detected
+
+✅ Clean customer dataset generated
+
+✅ Analytics-ready structured data
 
 ---
 
@@ -349,14 +313,15 @@ The platform uses PostgreSQL as the central data warehouse.
 
 ### Monthly Orders Trend Analysis
 
-![EDA Analysis](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Monthly%20orders%20Trend%20Screenshot%20.png)
+![Monthly Orders Trend Analysis](images/monthly-orders-trend-analysis.png)
 
-**Insights Generated**
+### Insights Generated
 
-- Order volume growth trends
-- Seasonal purchasing patterns
-- Customer demand fluctuations
-- Business growth trajectory
+- Monthly order growth trends
+- Customer purchasing patterns
+- Seasonal demand fluctuations
+- Business performance tracking
+- Order volume forecasting insights
 
 ---
 
@@ -364,19 +329,19 @@ The platform uses PostgreSQL as the central data warehouse.
 
 ### Customer Feature Generation
 
-![Feature Engineering](images/feature-engineering-pipeline.png)
+![Feature Engineering Pipeline](images/feature-engineering-pipeline.png)
 
-**Features Created**
+### Features Created
 
 - Total Orders
 - Customer Revenue
-- Customer State
 - Purchase Frequency
-- Behavioral Metrics
+- Customer State
+- Customer Behavior Metrics
 
 ### Outcome
 
-Generated machine-learning-ready customer feature dataset.
+Generated machine-learning-ready customer feature dataset for predictive analytics.
 
 ---
 
@@ -386,17 +351,20 @@ Generated machine-learning-ready customer feature dataset.
 
 ![Machine Learning Model](images/customer-intelligence-ml-model.png)
 
-**Model Details**
+### Model Details
 
 - Algorithm: Random Forest Classifier
 - Train/Test Split: 80/20
-- Feature-Based Customer Prediction
-- Automated Model Evaluation
+- Customer Prediction Engine
+- Automated Evaluation Pipeline
 
 ### Performance
 
-- Model Accuracy: 100%
-- Classification Pipeline Successfully Executed
+✅ Model Successfully Trained
+
+✅ Prediction Pipeline Executed
+
+✅ Customer Intelligence Features Generated
 
 ---
 
@@ -408,17 +376,19 @@ Generated machine-learning-ready customer feature dataset.
 
 ✅ AI Business Recommendation System
 
-✅ Customer Health Score
+✅ Customer Health Score Engine
 
 ✅ Revenue Outlier Detection
 
-✅ Sales Forecasting Engine
+✅ Sales Forecasting Analytics
 
 ✅ State-wise Customer Intelligence
 
 ✅ Revenue Champions Leaderboard
 
 ✅ Smart AI Business Assistant
+
+✅ Enterprise PostgreSQL Data Warehouse
 
 ---
 
@@ -430,7 +400,8 @@ Generated machine-learning-ready customer feature dataset.
 4. Exploratory Data Analysis
 5. Feature Engineering
 6. Machine Learning Modeling
-7. AI Business Intelligence Generation
-8. Interactive Dashboard Deployment
+7. Customer Intelligence Generation
+8. AI Business Recommendations
+9. Interactive Dashboard Deployment
 
 ---
