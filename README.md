@@ -156,7 +156,7 @@ This advanced analytics module identifies high-value spending behaviors and unus
 ---
 
 ### 🏆 Revenue Champions Leaderboard
-![Revenue Champions Leaderboard](images/revenue-champions-leaderboard.png)
+![Revenue Champions Leaderboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235738.png)
 
 The Revenue Champions Leaderboard highlights the highest revenue-generating customers within the platform. This feature enables businesses to recognize top contributors, strengthen customer relationships, and develop exclusive engagement strategies for valuable customers.
 
