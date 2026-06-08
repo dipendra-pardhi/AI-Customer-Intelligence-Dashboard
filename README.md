@@ -271,7 +271,7 @@ The platform uses PostgreSQL as the central enterprise data warehouse for storin
 
 ### Database Setup
 
-![Database Setup](images/database-schema-setup.png)
+![Database Setup](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20010232.png)
 
 ### Key Achievements
 
