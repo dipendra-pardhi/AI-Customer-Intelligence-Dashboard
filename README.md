@@ -121,7 +121,7 @@ The Sales Intelligence Monitor analyzes monthly sales trends and order volumes a
 ---
 
 ### 🎯 AI Customer Segmentation Center
-![AI Customer Segmentation Center](images/ai-customer-segmentation-center.png)
+![AI Customer Segmentation Center](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-08%20235549.png)
 
 This AI-powered segmentation engine categorizes customers into VIP, At-Risk, and Regular customer groups based on purchasing behavior and engagement patterns. The dashboard enables businesses to create personalized retention strategies and maximize customer lifetime value through targeted marketing initiatives.
 
