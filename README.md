@@ -180,3 +180,60 @@ The Smart AI Business Assistant provides an interactive conversational interface
 ![Customer State Analysis Dashboard](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Screenshot%202026-06-09%20000447.png)
 
 The Customer State Analysis Dashboard visualizes customer distribution across different geographic regions and states. This module helps businesses identify high-performing markets, understand regional customer concentration, and support data-driven expansion strategies.
+
+
+## 🗄 Database Design (PostgreSQL)
+
+The project uses a normalized PostgreSQL database consisting of 7 interconnected tables:
+
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
+
+### Sample Schema
+
+```sql
+CREATE TABLE customers (
+    customer_id VARCHAR(50) PRIMARY KEY,
+    customer_unique_id VARCHAR(50),
+    customer_city VARCHAR(100),
+    customer_state VARCHAR(10)
+);
+
+CREATE TABLE orders (
+    order_id VARCHAR(50) PRIMARY KEY,
+    customer_id VARCHAR(50),
+    order_status VARCHAR(50),
+    order_purchase_timestamp TIMESTAMP
+);
+
+CREATE TABLE payments (
+    order_id VARCHAR(50),
+    payment_type VARCHAR(50),
+    payment_value NUMERIC
+);
+
+Business Analysis Queries
+
+SELECT
+    COUNT(*) AS total_orders,
+    COUNT(DISTINCT customer_id) AS unique_customers
+FROM orders;
+
+SELECT
+    c.customer_unique_id,
+    COUNT(DISTINCT o.order_id) AS total_orders,
+    SUM(p.payment_value) AS total_spent
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+JOIN payments p ON o.order_id = p.order_id
+GROUP BY c.customer_unique_id
+ORDER BY total_spent DESC
+LIMIT 10;
+
+📂 Complete SQL scripts are available inside the `sql/` folder.
+
