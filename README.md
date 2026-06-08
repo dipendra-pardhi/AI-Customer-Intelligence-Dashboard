@@ -313,7 +313,7 @@ The platform uses PostgreSQL as the central enterprise data warehouse for storin
 
 ### Monthly Orders Trend Analysis
 
-![Monthly Orders Trend Analysis](images/monthly-orders-trend-analysis.png)
+![Monthly Orders Trend Analysis]([images/monthly-orders-trend-analysis.png](https://github.com/dipendra-pardhi/AI-Customer-Intelligence-Dashboard/blob/main/Redmy%20screen%20shorts/Monthly%20orders%20Trend%20Screenshot%20.png)
 
 ### Insights Generated
 
