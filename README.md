@@ -358,6 +358,25 @@ Generated machine-learning-ready customer feature dataset for predictive analyti
 - Customer Prediction Engine
 - Automated Evaluation Pipeline
 
+
+### 📈 Exploratory Data Analysis (EDA)
+
+#### Monthly Orders Trend Analysis
+
+![Monthly Orders Trend Analysis](images/eda-monthly-orders-trend-analysis.png)
+
+**Description**
+
+This visualization was generated during the Exploratory Data Analysis (EDA) phase using Python and Matplotlib. It highlights monthly order volume trends, seasonal demand patterns, and business growth over time. The analysis helped identify customer purchasing behavior and provided valuable insights for feature engineering and machine learning development.
+
+**Key Insights**
+
+- Identified monthly order growth trends
+- Analyzed seasonal purchasing patterns
+- Detected demand fluctuations across periods
+- Supported forecasting and predictive analytics
+- Provided business performance insights
+
 ### Performance
 
 ✅ Model Successfully Trained
