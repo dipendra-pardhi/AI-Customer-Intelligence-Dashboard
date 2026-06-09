@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sqlalchemy import create_engine
+
 
 # ----------------------------
 # PAGE CONFIG
@@ -30,9 +30,6 @@ Executive Command Center
 # ----------------------------
 # DATABASE CONNECTION
 # ----------------------------
-engine = create_engine(
-    "postgresql+psycopg2://postgres:1165807946@localhost:5432/olist_ecommerce_db"
-)
 
 st.markdown("""
 <hr style="
@@ -53,9 +50,9 @@ background:linear-gradient(
 # ----------------------------
 # LOAD DATA
 # ----------------------------
-customers = pd.read_sql("SELECT * FROM customers", engine)
-orders = pd.read_sql("SELECT * FROM orders", engine)
-products = pd.read_sql("SELECT * FROM products", engine)
+customers = pd.read_csv("Data/olist_customers_dataset.csv")
+orders = pd.read_csv("Data/olist_orders_dataset.csv")
+products = pd.read_csv("Data/olist_products_dataset.csv")
 
 st.success("🟢 Connected to Olist Enterprise Database")
 
