@@ -485,7 +485,7 @@ Business Analytics Student | Data Analyst | AI & Business Intelligence Enthusias
 
 💻 GitHub: https://github.com/dipendra-pardhi
 
-📧 Email: your-email@example.com
+📧 Email: your-dipendrapardhi622@gmail.com
 
 ---
 
